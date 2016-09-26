@@ -1,0 +1,124 @@
+@path: "../fonts/";
+
+@font-face {
+    font-family: 'open_sans_light';
+    src: url('../fonts/OpenSans-Light-webfont.eot');
+    src: url('../fonts/OpenSans-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/OpenSans-Light-webfont.woff') format('woff'),
+         url('../fonts/OpenSans-Light-webfont.ttf') format('truetype'),
+         url('../fonts/OpenSans-Light-webfont.svg#open_sanslight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'open_sans_regular';
+    src: url('../fonts/OpenSans-Regular-webfont.eot');
+    src: url('../fonts/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/OpenSans-Regular-webfont.woff') format('woff'),
+         url('../fonts/OpenSans-Regular-webfont.ttf') format('truetype'),
+         url('../fonts/OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'open_sans_bold';
+    src: url('../fonts/OpenSans-Bold-webfont.eot');
+    src: url('../fonts/OpenSans-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/OpenSans-Bold-webfont.woff') format('woff'),
+         url('../fonts/OpenSans-Bold-webfont.ttf') format('truetype'),
+         url('../fonts/OpenSans-Bold-webfont.svg#open_sansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: "fonts-icons-fif";
+  src:url("../fonts/fonts-icons-fif.eot");
+  src:url("../fonts/fonts-icons-fif.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/fonts-icons-fif.ttf") format("truetype"),
+    url("../fonts/fonts-icons-fif.svg#fonts-icons-fif") format("svg"),
+    url("../fonts/fonts-icons-fif.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "fonts-icons-fif";
+  content: attr(data-icon);
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none !important;
+  speak: none;
+  display: inline-block;
+  text-decoration: none;
+  width: 1em;
+  line-height: 1em;
+  -webkit-font-smoothing: antialiased;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "fonts-icons-fif";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none !important;
+  speak: none;
+  display: inline-block;
+  text-decoration: none;
+  width: 1em;
+  line-height: 1em;
+  -webkit-font-smoothing: antialiased;
+}
+
+
+.icon-facebook-circled:before {
+  content: "a";
+}
+
+.icon-github-circled:before {
+  content: "b";
+}
+
+.icon-twitter-circled:before {
+  content: "c";
+}
+
+.icon-linkedin-circled:before {
+  content: "e";
+}
+
+.icon-gplus-circled:before {
+  content: "f";
+}
+
+
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	/*
+    @font-face {
+    	font-family: 'open_sans_light';
+    	src: url('#{$path}OpenSans-Light-webfont.svg#open_sanslight') format('svg');
+	}
+
+	@font-face {
+    	font-family: 'open_sans_regular';
+    	src: url('#{$path}OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
+	}
+    
+
+	@font-face {
+    	font-family: 'open_sans_bold';
+    	src: url('../fonts/OpenSans-Bold-webfont.svg#open_sansbold') format('svg');
+	}
+    */
+
+    @font-face {
+        font-family: "fonts-icons-fif";
+        src: url("../fonts/fonts-icons-fif.svg#fonts-icons-fif") format("svg");
+    }
+}
